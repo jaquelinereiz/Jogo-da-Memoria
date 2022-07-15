@@ -18,8 +18,12 @@ O jogo consiste em cartas de personagens e elementos do Super Mario embaralhadas
 - JavaScript
 <br>
 <br>
-✦ Imagem do projeto:
+✦ Imagens do projeto:
 <br>
 <br>
 
 ![jogo-da-memoria](https://user-images.githubusercontent.com/91039376/179275788-d696dd33-3a45-4973-bdcb-d89a39d81ddd.png)
+
+<br>
+
+![jogo-personagem](https://user-images.githubusercontent.com/91039376/179284411-f5e29ba0-ed18-4a55-8d13-a47f6495f314.png)
