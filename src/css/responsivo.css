@@ -1,0 +1,41 @@
+@media (max-width: 950px) {
+
+    .title {
+        margin-top: 20px;
+    }
+
+    .title img {
+        height: 100px;
+    }
+
+    .title h1 {
+        font-size: 18px;
+    }
+
+    .memory-game {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        margin-top: 30px; 
+    }
+
+    .card {
+        height: calc( 21.555% - 10px);
+        width: calc(20% - 10px);
+    }
+}
+
+@media (max-width: 750px) {
+    .title {
+        margin-top: 50px;
+    }
+
+    .title img {
+        height: 70px;
+    }
+
+    .memory-game {
+        width: 400px;
+        height: 470px;
+    }
+}
