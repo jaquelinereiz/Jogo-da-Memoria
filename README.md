@@ -18,6 +18,11 @@ O jogo consiste em cartas de personagens e elementos do Super Mario embaralhadas
 - JavaScript
 <br>
 <br>
+✦ Projeto hospedado (GitHub Pages):
+<br>
+https://jaquelinereiz.github.io/Jogo-da-Memoria/
+<br>
+<br>
 ✦ Imagens do projeto:
 <br>
 <br>
