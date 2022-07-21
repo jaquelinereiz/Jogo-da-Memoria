@@ -17,11 +17,13 @@
         align-items: center;
         margin: auto;
         margin-top: 30px; 
+        height: 500px;
+        width:600px;
     }
 
     .card {
-        height: calc( 21.555% - 10px);
-        width: calc(20% - 10px);
+        height: 6.8rem ;
+        width: 6.8rem ;
     }
 }
 
@@ -35,7 +37,16 @@
     }
 
     .memory-game {
-        width: 400px;
-        height: 470px;
+        display: flex;
+        align-items: center;
+        margin: auto;
+     
+        height: 400px;
+        width:450px;
+    }
+
+    .card {
+        height: 5rem ;
+        width: 5rem ;
     }
 }

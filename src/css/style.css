@@ -6,15 +6,19 @@
 }
 
 body {
-    height: 70vh;
     background-color: rgb(188, 248, 228);
+    
+}
+
+.audioControls{
+ 
 }
 
 .title {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 18px;
     font-size: 14px;
     color: #023e8a;
 }
@@ -28,16 +32,16 @@ body {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    height: 640px;
-    width: 640px;
-    margin: 25px;
-    margin-left: 30%;
-    perspective: 1000px; /* perspectiva do usuario no eixo z, quanto maior, maior o efeito da perspectiva */
+    height: 600px;
+    width: 750px;
+    margin:  auto;
+    
+    perspective: 1500px; /* perspectiva do usuario no eixo z, quanto maior, maior o efeito da perspectiva */
 }
 
 .card {
-    height: calc( 24.888% - 10px);
-    width: calc(25% - 10px);
+    height: 8.5rem; 
+    width:8.5rem; 
     margin: 5px;
     box-shadow: 1px 1px 1px rgba(0,0,0,.3);
     cursor: pointer;
@@ -57,17 +61,21 @@ body {
   height: 100%;
   padding: 20px;
   position: absolute;
-  border-radius: 5px;
+  border-radius: 0.2rem;
   background: rgb(92, 187, 182);
   backface-visibility: hidden; /* todo elemento tem uma frente e um verso (ao contrario, como um espelho.) essa propriedade retira o verso */
 }
 
 .card-front {
     transform: rotateY(180deg); /* antes, o verso aparecia transparente, pois ambas as imagens tem position absolute, ao girar no eixo Y, elas ficaram com os versos virados */
+   
 }
 
 /* flip card animation */
 
 .card.flip {
     transform: rotateY(180deg);
+    transition: transform 1.2s;
 }
+
+
