@@ -3,6 +3,14 @@ let hasFlippedCard = false;
 let firstCard, secondCard;
 let lockBoard = false;
 
+const musicData = ['./src/music/audio01.mp3','./src/music/audio02.mp3','./src/music/audio03.mp3','./src/music/audio04.mp3','./src/music/audio05.mp3','./src/music/audio06.mp3']
+
+
+const $audio = document.getElementsByClassName('audioControls')
+console.log($audio[0])
+console.log($audio[0].src=musicData[Math.floor(Math.random() * musicData.length)])
+
+
 //função para virar carta
 function flipCard() {
     if(lockBoard) return;
