@@ -1,6 +1,6 @@
 # Jogo da Memoria: Super Mario
 <br>
-Projeto de um jogo da memória com tema do jogo Super Mario.
+Projeto de um jogo da memória com tema do Super Mario.
 <br> <br>
 ✦ Sobre:
 <br>
